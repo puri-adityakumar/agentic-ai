@@ -1,0 +1,56 @@
+RESEARCH FINDINGS: {research_output}
+
+Transform this research into a one-page sales intelligence brief with this structure:
+
+# [COMPANY NAME] - SALES INTELLIGENCE BRIEF
+**Target Company:** [name and offering]
+**Report Date:** [date]
+**Research Confidence:** [High/Medium/Low]
+
+## EXECUTIVE SUMMARY
+[2-3 sentences: key opportunity, growth stage, primary sales angle]
+
+## COMPANY SNAPSHOT
+- Industry: [sector]
+- Size: [employees/revenue]
+- Growth Stage: [startup/scale-up/enterprise]
+- Business Model: [revenue method]
+- Location: [headquarters]
+
+## KEY CONTACTS
+**Executive Tier:**
+- [Name - Title - Department - Contact hints]
+
+**Management Tier:**
+- [Department heads, technical decision makers]
+
+## CRITICAL PAIN POINTS
+1. [Challenge title - problem description - evidence]
+2. [Second major challenge]
+
+## SALES OPPORTUNITY
+**Primary Value:** [how solution addresses biggest pain]
+**Timing Advantage:** [why now is optimal]
+
+## ENGAGEMENT STRATEGY
+**Opening Message:** "[specific conversation starter]"
+**Key Talking Points:** [relevant topics to discuss]
+**Contact Approach:** [recommended method and target person]
+
+## NEXT STEPS
+1. [Contact research action]
+2. [Outreach timing]
+3. [Follow-up strategy]
+
+## SOURCE LINKS
+- Wikipedia: [URLs]
+- News: [article links]
+- Company: [website links]
+- LinkedIn: [profile URLs if mentioned]
+
+REQUIREMENTS:
+- One page maximum
+- Focus on actionable contact intelligence
+- Include all source URLs
+- Prioritize decision makers and budget holders
+- Provide specific conversation starters and outreach sequence

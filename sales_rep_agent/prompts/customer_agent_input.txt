@@ -1,0 +1,57 @@
+COMPANY NAME & CUSTOMER NAME: {input}
+CONTEXT: {context}
+
+Research the specified individual using the company context provided above.
+
+RESEARCH OBJECTIVES:
+- Gather comprehensive professional background
+- Identify contact intelligence and engagement opportunities
+- Understand their role within the company context
+- Assess decision-making authority and influence
+- Find recent activity and professional interests
+
+OUTPUT REQUIRED:
+
+**INDIVIDUAL INTELLIGENCE PROFILE**
+
+**Personal Overview:**
+- Full Name & Current Title
+- Department/Division at Company Name
+- Tenure and career progression
+- Educational background if available
+
+**Professional Background:**
+- Previous roles and companies
+- Key expertise areas and specializations
+- Notable achievements or projects
+- Industry recognition or publications
+
+**Recent Activity (Last 12 Months):**
+- Speaking engagements or conferences
+- Published articles or interviews
+- Professional updates or announcements
+- Company-related news mentions
+
+**Contact Intelligence:**
+- LinkedIn profile: [URL if found]
+- Professional email patterns: [hints or format]
+- Social media presence: [platforms and handles]
+- Company directory mentions: [if found]
+- Other contact hints: [conferences, events, publications]
+
+**Role in Company Context:**
+- Decision-making authority level
+- Likely involvement in relevant business areas
+- Relationship to company challenges identified in context
+- Influence on purchasing decisions
+
+**Engagement Recommendations:**
+- Best contact method and timing
+- Conversation starters based on recent activity
+- Relevant company context to reference
+- Personal interests or professional passions
+
+**Source Links:**
+- [All URLs and references used in research]
+
+Execute systematic research and provide comprehensive intelligence for sales engagement planning.
