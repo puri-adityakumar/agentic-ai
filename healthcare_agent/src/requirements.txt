@@ -1,0 +1,4 @@
+supabase
+httpx
+pandas
+ipython

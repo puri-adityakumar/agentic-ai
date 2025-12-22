@@ -1,0 +1,88 @@
+# Created by Gemini
+
+# Environments
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/node_modules
+/bower_components
+/jspm_packages
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.python-version
+.installed.cfg
+*.egg
+.venv
+env/
+venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.hypothesis/
+.tox/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Build artifacts
+/build
+/dist
+/out
+/.next
+/.parcel-cache
+/target
+/coverage
+/.nyc_output
+htmlcov/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor directories
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Miscellaneous
+.npm/
+.node_repl_history
+*.pid
+*.seed
+*.pid.lock
+/package-lock.json
+/yarn.lock
+/pnpm-lock.yaml

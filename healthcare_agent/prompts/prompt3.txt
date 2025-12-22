@@ -1,0 +1,185 @@
+You are tasked with generating realistic conversations between a doctor and patient during a medical consultation. Create natural, medically accurate dialogues that represent actual clinical encounters lasting **30-45 minutes when spoken aloud**.
+
+## Additional Context
+
+* **Appointment Summary**: You will receive an **appointment summary as context**.
+
+  * Use all relevant details from this summary (reason for visit, patient info, symptoms, etc.) to craft the conversation.
+  * Ensure the dialogue remains consistent with the information provided in the summary.
+
+## Conversation Requirements:
+
+### Duration & Flow:
+
+* **Length**: 20–30 minutes of spoken dialogue (approximately 4,000–6,000 words)
+* **Natural pacing**: Include examination pauses, thinking moments, and realistic consultation flow
+* **Clinical structure**: Follow standard consultation format while maintaining natural conversation
+
+### Characters:
+
+**Doctor**:
+
+* Professional, empathetic, and thorough
+* Uses appropriate medical terminology with patient-friendly explanations
+* Follows systematic examination approach
+* Asks targeted follow-up questions
+* Provides clear explanations and treatment plans
+* Shows clinical reasoning process
+
+**Patient**:
+
+* Varies in medical knowledge and communication style
+* May be anxious, confused, or have concerns
+* Asks questions about their condition
+* Sometimes provides incomplete or unclear information initially
+* Realistic emotional responses to diagnosis/treatment plans
+
+### Clinical Consultation Structure:
+
+1. **Opening & Rapport Building** (2–3 minutes)
+
+   * Greeting and introduction
+   * “What brings you in today?”
+   * Initial comfort building
+2. **History Taking** (10–15 minutes)
+
+   * Present illness exploration
+   * Symptom clarification and timeline
+   * Associated symptoms
+   * Past medical history review
+   * Medication reconciliation
+   * Social/family history (if relevant)
+3. **Physical Examination** (3–5 minutes)
+
+   * Examination instructions and findings
+   * Patient questions during exam
+   * Doctor's observations and explanations
+4. **Assessment & Discussion** (3–5 minutes)
+
+   * Doctor's clinical impression
+   * Explanation of findings
+   * Discussion of differential diagnoses
+   * Patient questions and concerns
+5. **Treatment Plan & Instructions** (4–5 minutes)
+
+   * Recommended treatments
+   * Prescription explanations
+   * Lifestyle recommendations
+   * Follow-up arrangements
+   * Safety netting instructions
+
+### Required Medical Content:
+
+* **Symptom exploration (SOCRATES)**
+* Systematic review when appropriate
+* Risk factor assessment
+* Physical examination findings
+* Clinical reasoning and diagnostic process
+
+### Treatment Planning:
+
+* Evidence-based recommendations
+* Patient education about condition
+* Medication instructions and side effects
+* Lifestyle modifications
+* Warning signs to watch for
+* Follow-up scheduling
+
+### Consultation Scenarios (Choose One):
+
+1. Acute Illness
+2. Chronic Disease Management
+3. Follow-up Visit
+4. Preventive Care
+5. Complex Case
+6. Mental Health
+
+### Realistic Clinical Elements:
+
+**Doctor Behaviors**:
+
+* Uses medical jargon then explains in simple terms
+* Shows clinical reasoning: “I’m thinking about… because…”
+* Asks clarifying questions: “When you say sharp pain, describe that more”
+* Provides reassurance when appropriate
+* Acknowledges uncertainty when present
+
+**Patient Behaviors**:
+
+* Initially vague, becomes more specific with prompting
+* Asks about prognosis and treatment duration
+* Expresses concerns about serious conditions
+* Sometimes mishears or misunderstands medical terms
+* Requests clarification on instructions
+
+**Examination Interactions**:
+
+* “\[Doctor listens to chest]”
+* “Take a deep breath for me”
+* “Does this hurt when I press here?”
+* “I can feel that your lymph nodes are slightly enlarged”
+
+### Medical Accuracy Requirements:
+
+* Symptoms must be medically plausible
+* Treatment recommendations should follow standard guidelines
+* Physical exam findings should correlate with history
+* Differential diagnosis should be logical
+* Medication dosing should be appropriate
+
+### Cultural Context:
+
+* Appropriate for Indian healthcare setting when relevant
+* Consider cultural factors in doctor-patient communication
+* Include common Indian names and cultural references naturally
+
+### Quality Guidelines:
+
+**Authenticity**:
+
+* Conversation should sound like an actual clinical encounter
+* Include realistic interruptions and clarifications
+* Show doctor's thought process and clinical reasoning
+
+**Educational Value**:
+
+* Demonstrate good clinical communication
+* Show systematic approach to diagnosis
+* Include patient education components
+
+**Completeness**:
+
+* Cover all major aspects of clinical consultation
+* Include both medical and emotional components
+* Show shared decision-making when appropriate
+
+### Output Format:
+
+* Provide the conversation as a transcript with:
+
+  * Clear speaker labels: “Doctor:” and “Patient:”
+  * Examination actions in brackets: \[Doctor examines abdomen]
+  * Natural dialogue with realistic speech patterns
+  * Medical terminology with explanations
+  * Optional time indicators: \[15 minutes into consultation]
+
+### Example Opening:
+
+```
+Doctor: Good morning! Please, have a seat. I'm Dr. Patel. I see from your appointment summary that you've been experiencing abdominal pain. Can you tell me more about what's been going on?
+
+Patient: Yes, doctor. It started about three days ago, and it's getting worse. I'm really worried because the pain is quite severe now.
+
+Doctor: I understand your concern. Let’s explore this step by step so I can help you. When you say the pain started three days ago, can you tell me exactly where you feel it and what it feels like?
+```
+
+### Special Instructions:
+
+* **Use the appointment summary as context for the case**
+* Include clinical red flags when medically appropriate
+* Show diagnostic reasoning process clearly
+* Balance thoroughness with efficiency
+* Include patient education naturally
+* End with clear follow-up plan
+* Maintain professional boundaries while being empathetic
+
