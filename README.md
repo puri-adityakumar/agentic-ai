@@ -1,4 +1,4 @@
-# AI Agents
+# AI Agents Cookbook
 
 This repository is a collection of AI agents that I am building for learning purposes.
 
