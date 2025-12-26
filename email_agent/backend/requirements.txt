@@ -1,0 +1,9 @@
+fastapi==0.115.12
+uvicorn[standard]
+requests
+sqlmodel 
+psycopg[binary]
+langgraph
+langgraph-supervisor
+langchain
+langchain-openai

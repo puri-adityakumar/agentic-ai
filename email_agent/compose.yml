@@ -1,0 +1,54 @@
+services: # dockers compose expects
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8000
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+    environment:
+      - PORT=8000
+      - MY_PROJECT=Hello World
+    env_file:
+      - .env.sample
+    volumes:
+      - ./backend/src:/app
+    depends_on:
+      - db_service
+    develop:
+      watch:
+        - action: rebuild
+          path: backend/requirements.txt
+        - action: rebuild
+          path: backend/Dockerfile
+        - action: restart
+          path: backend/src/
+          # target: /app
+  # DATABASE_URL=postgresql+psycopg://dbuser:db-password@db_service:5432/mydb
+  db_service:
+    image: postgres:17.5
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=dbuser
+      - POSTGRES_PASSWORD=db-password
+      - POSTGRES_DB=mydb
+    # env_file:
+    #   - .env.sample-db
+    volumes:
+      - dc_managed_db_volume:/var/lib/postgresql/data
+
+  # static_html: # custom key name
+  #   # image: python:3.13.4-slim-bullseye
+  #   build:
+  #     context: ./static_html
+  #     dockerfile: static.Dockerfile
+  #   ports:
+  #     - 8000:8000
+  #     - 3000:8000
+  #   command: python -m http.server 8000
+  #   volumes:
+  #     - ./static_html/src:/app
+
+volumes:
+  dc_managed_db_volume:
